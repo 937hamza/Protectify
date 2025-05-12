@@ -2,26 +2,24 @@
 
 buildscript {
     repositories {
-        mavenCentral()
         google()
-        maven {
-            url 'https://maven.fabric.io/public'
-        }
+        mavenCentral()
+        gradlePluginPortal()  // Add this line
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
-        classpath 'com.google.gms:google-services:4.3.10'
-        classpath 'io.fabric.tools:gradle:1.31.0'
+        classpath 'com.android.tools.build:gradle:8.9.2'
+        classpath 'com.google.gms:google-services:4.4.2'  // Note the 'com.google.gms' group
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.3'
     }
 }
 
 allprojects {
     repositories {
-        mavenCentral()
         google()
+        mavenCentral()
     }
 }
 
-task clean(type: Delete) {
+tasks.register('clean', Delete) {
     delete rootProject.buildDir
 }

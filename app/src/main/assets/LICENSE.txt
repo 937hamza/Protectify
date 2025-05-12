@@ -1,0 +1,3 @@
+This app is licensed under the GNU General Public License v3.0 (GPLv3).
+Based on the open-source project "Daedalus" by iTXTech: https://github.com/iTXTech/Daedalus
+Full license: https://www.gnu.org/licenses/gpl-3.0.txt

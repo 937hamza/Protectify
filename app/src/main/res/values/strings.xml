@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Daedalus</string>
+    <string name="app_name">Protectify</string>
     <string name="quick_toggle">Toggle</string>
 
-    <string name="notice_activated">iTXTech Daedalus is activated.</string>
+    <string name="notice_activated">Firewall Protectify is activated.</string>
     <string name="notice_start_test">Testing specified DNS server…</string>
     <string name="notice_queries">DNS query times:</string>
-    <string name="notice_need_restart">Re-activate Daedalus to make the settings take effect.</string>
+    <string name="notice_need_restart">Re-activate Protectify to make the settings take effect.</string>
     <string name="notice_start_download">Downloading rule, please wait …</string>
     <string name="notice_downloaded">Rule has been downloaded.</string>
     <string name="notice_download_failed">Download failed.</string>
-    <string name="notice_now_downloading">Daedalus is currently downloading rule, please wait.</string>
+    <string name="notice_now_downloading">Protectify is currently downloading rule, please wait.</string>
     <string name="notice_fill_in_all">Please fill in all configuration items.</string>
     <string name="notice_delete_confirm_prompt">Are you sure you want to remove this configuration?</string>
     <string name="notice_after_stop">Please modify activated rules after stopping service.</string>
@@ -48,18 +48,18 @@
     <string name="settings_server">Server Settings</string>
     <string name="settings_notification">Show Notification</string>
     <string name="settings_check_update">Check Update</string>
-    <string name="settings_update_summary">Visit GitHub Releases Page.</string>
+    <string name="settings_update_summary">Visit our Site.</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_count_number_of_queries">Count DNS Query Times</string>
     <string name="settings_bug_report">Report a Bug</string>
-    <string name="settings_issue_summary">Submit an Issue on GitHub Issues Page.</string>
+    <string name="settings_issue_summary">Submit an Issue on our whatsapp.</string>
     <string name="settings_dns_test_servers">DNS Test Servers</string>
     <string name="settings_help_and_support">Help &amp; Support</string>
     <string name="settings_advanced">Advanced System Settings</string>
     <string name="settings_advanced_on">On</string>
     <string name="settings_log_size">Log Size Limit</string>
     <string name="settings_manual">Manual</string>
-    <string name="settings_manual_summary">Visit GitHub wiki page.</string>
+    <string name="settings_manual_summary">See Manual.</string>
     <string name="settings_dont_build_cache">Don\'t cache IP for DNS servers</string>
     <string name="settings_debug_output">Debug Output</string>
     <string name="settings_dark_theme">Use Dark Theme</string>
