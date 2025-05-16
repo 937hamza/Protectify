@@ -1,38 +1,44 @@
-**Introduction**
-This application creates a VPN tunnel to handle all DNS requests.
+## Introduction
 
-**Features:**
+This application creates a VPN tunnel to handle all DNS requests.<br>
+<br>
+Features:
+* No root access required, no ads contained
+* Functional under data connection
+* A tester for DNS servers
+* IPv6 support (including Rules!)
+* Custom DNS server
+* Custom hosts and DNSMasq configuration
+* EXTREME LOW power consume
+* Material Design
 
-No root access required, no ads contained
-Functional under data connection
-A tester for DNS servers
-IPv6 support (including Rules!)
-Custom DNS server
-Custom hosts and DNSMasq configuration
-EXTREME LOW power consume
-Material Design
 Supported DNS Query Methods:
+* UDP
+* TCP 
+* DNS over TLS ([RFC7858](https://tools.ietf.org/html/rfc7858))
+* DNS over HTTPS ([RFC8484](https://tools.ietf.org/html/rfc8484))
+* DNS over HTTPS ([Google JSON](https://developers.google.com/speed/public-dns/docs/dns-over-https))
+<br>
 
-UDP
-TCP
-DNS over TLS (RFC7858)
-DNS over HTTPS (RFC8484)
-DNS over HTTPS (Google JSON)
+__Users must comply with local laws and regulations.__<br>
 
-Users must comply with local laws and regulations.
+## DNS Server Providers
 
-**DNS Server Providers**
-CuteDNS - Shutdown according to regulations
-FUN DNS - Shutdown according to regulations
-Pure DNS - Shutdown according to regulations
-PdoMo-DNS - Shutdown according to regulations
-rubyfish - Free DoT/DoH DNS
-**Rule Providers**
-hosts by googlehosts 
-yhosts by vokins 
-Requirements
-Minimum Android version: >= 7.0 (API 24)
-Recommended Android version: >= 13 (API 33)
+* __CuteDNS__ - *Shutdown according to regulations*
+* __[FUN DNS](http://fundns.cn)__ - *Shutdown according to regulations*
+* __[Pure DNS](https://puredns.cn/)__ - *Shutdown according to regulations*
+* __[PdoMo-DNS](https://pdomo.me/)__ - *Shutdown according to regulations*
+* __[rubyfish](https://www.rubyfish.cn)__ - *Free DoT/DoH DNS*
+
+## Rule Providers
+
+* __[hosts](https://github.com/googlehosts/hosts)__ by *[googlehosts](https://github.com/googlehosts)* - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+* __[yhosts](https://github.com/vokins/yhosts)__ by *[vokins](https://github.com/vokins)* - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+## Requirements
+
+* Minimum Android version: >= 7.0 (API 24)
+* Recommended Android version: >= 13 (API 33)
 -----------------------------------------------------------------------------------------------------------------------------------
 # Protectify
 
